@@ -4,17 +4,20 @@ using namespace std;
 
 main(){
 	setlocale(LC_ALL, "Portuguese");
-	float l1, l2, l3;
+	float l;
 	
-	cout << "Informe o 1 lado do triângulo"
-	cin >> l1
+	cout << "quantidades de lados iguais";
+	cin >> l;
 	
-		cout << "Informe o 2 lado do triângulo"
-	cin >> l2
+	if(l=3)
+	cout << "equilátero";
 	
-		cout << "Informe o 3 lado do triângulo"
-	cin >> l3
+	if(l=2)
+	cout << "isócele";
 	
-	if(l1==l2 && l1==l3)
+	if(l=0)
+	cout << "escaleno";
+	
+
 }
 
