@@ -14,3 +14,4 @@ main(){
 	cout << "os Fahrenheits são: " <<f;
 }
 
+
